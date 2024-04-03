@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>
+        {% if viart_score > dhoni_score and viart_score > jadeja_score %}
+        <h1>
+            RCB CAPTIN IS virat 
+        </h1>
+        <h1>VIRAT_SCORE {{virat_score}}</h1>
+
+        {% elif dhoni_score > jadeja_score %}
+    </h1> 
+    <h1> CSK CAPTIN IS DHONI </h1>
+    <h1>DHONI_SCORE {{dhoni_score}}</h1>
+    {% else %}
+    <h1>MI CAPTIN IS JADEJA</h1>
+    <h1>JADEJA_SCORE {{jadeja_score}}</h1>
+    {% endif %}
+
+</center>
+</body>
+</html>
